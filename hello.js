@@ -1,23 +1,11 @@
-let val=19;
-val="hello";
-val=false;
-console.log(val);
-let n=3;
-console.log(n);
-if (n%2==0)
-    {
+//const prompt = require('prompt-sync')();
+//const naav = prompt("what is your name?");
+//console.log("hello,"+ naav +"!");
 
-   console.log("number is even");
+function sq(x)
+{
+   let ans=0;
+   ans=x*x;
+   return ans;
 }
-   else
-   {
-   console.log("number is odd");
-}
-let name='alice';
-let greetings=`hello,
-${Name}!`;
-console.log(greetings);
-
-
-let x=10+5;
-console.log(y)
+console.log("this is the ans:"+sq(12));
