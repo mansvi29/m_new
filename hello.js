@@ -9,3 +9,16 @@ function sq(x)
    return ans;
 }
 console.log("this is the ans:"+sq(12));
+
+
+function h(name, b)
+{
+   console.log("hello:" +name+"!");
+   b();
+}
+function Cb()
+{
+   console.log("hi!");
+
+}
+h("mansvi",Cb);
